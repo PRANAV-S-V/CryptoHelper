@@ -1,0 +1,29 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+        <title>CryptoHelper</title>
+    </head>
+    <body>
+        <div>
+            <select name="coinoos" class="coin-select" >
+                <option value="" disabled selected hidden>Choose a coin.</option>
+                <option value="BTC" >Bitcoin</option>
+                <option value="ETH" >Etherum</option>
+                
+            </select>
+        </div>
+        <div>
+            <% if(locals.value) {%>
+            <h1><%= value %></h1>
+            <% }else{ %>
+                <h1>fhkvhk</h1>
+                <% } %>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="handler.js"></script>
+    <!-- <script src="public/handler.js" charset="UTF-8"></script> -->
+    </body>
+    </html>
